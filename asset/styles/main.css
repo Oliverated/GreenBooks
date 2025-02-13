@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bokor&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+AU+VIC+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+  :root{
+    --primary:#f9f0b8;
+    --secondary:#4e4a00;
+    --oxiliary:#021000b3;
+    --accent:red;
+    --text:#ffffff;
+    --my-font: "Roboto", serif;
+    }
+
+ * {
+    padding: 0;
+    margin: 0;
+    font-family: var(--my-font);
+  }   
+
+  li,
+  a {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  /* header {
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+  }
+
+  nav {
+    background-color: blue;
+    width: 100%;
+    margin: auto;
+    border-radius:0 0 20px 20px;
+    box-shadow: 1px 0 20px 0 var(--primary);
+    z-index: 100;
+    height: 13vh;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    height: 13vh;
+  }
+
+  .nav-menu a {
+    color: beige;
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 30px;
+  }
+
+  .nav-list a {
+    color: white;
+    transition: 500ms;
+    font-style: italic;
+    font-size: 15px;
+  }
+
+  .nav-list a:hover {
+    color: #d0d0fc;
+  }
+ */
